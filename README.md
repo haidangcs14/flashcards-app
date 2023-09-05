@@ -1,0 +1,1 @@
+By using <b>spaced repetition</b>, you’ll test your knowledge of the new or challenging topics in the first box  

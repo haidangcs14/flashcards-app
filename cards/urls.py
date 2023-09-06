@@ -16,7 +16,12 @@ urlpatterns = [
     ),
     path(
         "edit/<int:pk>",
-        views.UpdateView.as_view(),
+        views.CardUpdateView.as_view(),
         name = "card-update"
+    ),
+    path(
+        "box/<int:box_num>",
+        views.BoxView.as_view(),
+        name = "box"
     ),
 ]
